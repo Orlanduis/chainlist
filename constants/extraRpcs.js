@@ -1821,6 +1821,11 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.alchemy,
       },
       {
+        url: "https://rpc.buildbear.io/esquivelfabian",
+        tracking: "yes",
+        trackingDetails: privacyStatement.buildbear,
+      },
+      {
         url: "https://optimism.blockpi.network/v1/rpc/public",
         tracking: "limited",
         trackingDetails: privacyStatement.blockpi,
