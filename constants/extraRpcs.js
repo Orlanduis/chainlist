@@ -216,7 +216,12 @@ export const extraRpcs = {
       {
         url: "https://rpc.mevblocker.io",
         tracking: "none",
-        trackingDetails: privacyStatement.MEVBlockerRPC,
+        trackingDetails: privacyStatement.MEVBlockerRPC
+      },
+      {
+        url: "https://eth.llamarpc.com/sk_llama_8fae97d13ddb244ef6344bc8ebecf1fe",
+        tracking: "none",
+        trackingDetails: "none".
       },
       {
         url: "https://rpc.flashbots.net/",
@@ -489,6 +494,10 @@ export const extraRpcs = {
         url: "https://polygon-mumbai-pokt.nodies.app",
         tracking: "none",
         trackingDetails: privacyStatement.pokt,
+        {
+        url: "https://polygon.llamarpc.com/sk_llama_8fae97d13ddb244ef6344bc8ebecf1fe",
+        tracking: "none",
+        trackingDetails: "none"
       },
       {
         url: "https://polygon-mumbai.gateway.tenderly.co",
@@ -781,9 +790,9 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.pokt,
       },
       {
-        url: "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
-        tracking: "yes",
-        trackingDetails: privacyStatement.nodereal,
+        url: "https://binance.llamarpc.com/sk_llama_8fae97d13ddb244ef6344bc8ebecf1fe",
+        tracking: "none",
+        trackingDetails: "none",
       },
       {
         url: "https://go.getblock.io/cc778cdbdf5c4b028ec9456e0e6c0cf3",
@@ -1341,9 +1350,9 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.publicnode,
       },
       {
-        url: "https://arbitrum.meowrpc.com",
+        url: "https://arbitrum.llamarpc.com/sk_llama_8fae97d13ddb244ef6344bc8ebecf1fe",
         tracking: "none",
-        trackingDetails: privacyStatement.meowrpc,
+        trackingDetails: "none",
       },
       {
         url: "https://api.zan.top/node/v1/arb/one/public",
@@ -1806,9 +1815,9 @@ export const extraRpcs = {
     rpcs: [
       "https://mainnet.optimism.io/",
       {
-        url: "https://rpc.ankr.com/optimism",
+        url: "https://rpc.buildbear.io/esquivelfabian",
         tracking: "limited",
-        trackingDetails: privacyStatement.ankr,
+        trackingDetails: "none",
       },
       {
         url: "https://optimism-mainnet.public.blastapi.io",
@@ -1816,7 +1825,7 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.blastapi,
       },
       {
-        url: "https://1rpc.io/op",
+        url: "https://optimism.llamarpc.com/sk_llama_8fae97d13ddb244ef6344bc8ebecf1fe",
         tracking: "none",
         trackingDetails: privacyStatement.onerpc,
       },
